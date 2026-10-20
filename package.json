@@ -4,9 +4,10 @@
   "description": "Independent deep analysis of business opportunities and affiliate marketing offers to assist in decision-making about pursuing or bypassing the purchase or promotion of these offers.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "build": "node -e \"console.log('No build required for the current Node.js application')\"",
+  "start": "node index.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sdrprod/PitchAudit.git"
